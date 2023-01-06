@@ -1,0 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.Header{
+    height: 100px;
+    width: 100%;
+}
+                /* Navigation style */
+nav {
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 5px solid gainsboro;
+    box-shadow: 0px 10px 50px gray;
+    background-image: url(/Website/pictures/Landscape.jpg);
+}
+nav ul li{
+    padding: 10px 20px;
+    margin-right: 75px;
+    margin-top: 40px;
+    border: 2px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+nav ul li a:hover{
+    font-size: 26px;
+}
+.title {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 60px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;   
+}
+
+/*                     Picture Grid                */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: black;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}

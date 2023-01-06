@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.Header{
+    background-image: url(pictures/Landscape.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+                /* Navigation style */
+nav {
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 5px solid gainsboro;
+    box-shadow: 0px 10px 50px gray;
+}
+nav ul li{
+    padding: 10px 20px;
+    margin-right: 75px;
+    margin-top: 40px;
+    border: 2px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+nav ul li a:hover{
+    font-size: 26px;
+}
+.title {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 60px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;   
+}
+.name {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+.name h1 {
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+.name h3 {
+    font-size: 20px;
+}
+.name h4 {
+    font-size: 20px;
+}
+.about {
+    background-image: url('https://lh3.googleusercontent.com/bRSpmwIiPmLoStHmzBMek4pHYRcysY46HjTtdr1fbmkH3OQvRdgYSDcnUEqmtrLC7sgCycOpy8FdtPYSTXNY97GvL18KUSUDvIMADgm860ckOq7pAaatzlITG9x18-mPFHnX9gvDqJQ9KL9lKAj3yvFWev-guRuj5fRxnSQ75aZGWkBppKGg2lLgHoWDZpOY1Bfe5wxrBqTtbYLIOOEcYPbk8t3Fzxgq_7XL0OwZmaumzJtYCjucd_UFV6yHrGgN3HTOkMhB9oHmOQjHQD3fG3BJi0Ly3MvDGnlXH_wAaxLTikDd9GFcpzjIWcZ6ykxysstDQaRktlaiSzLZPOwhipaRpycbfvLZSbk1anMze9GLyDlEr-SnjR8Rn9pi27QnHyTmMlqJRzkRDyavXYRlY377h26uZP66oxzPi8ZgRH_eyw888rRxyhF2HGt0iYCZmgXtp7EKZSvArr1C8tIDzcwcEKRgzYYrM48vJ_dUqshaUcBRPKbYXOvm709Sk6WNBhE_bTjz_XQB-Gth5tBLzI6qpBZjwU0P_XkX4ZZHKe5wrKikB1a3hRWto4NhNakW70iuC9Q1_WzCEmSKegEOxo4ksApwQ7mXEzOMgkgj0ZYNKjqlaOWsnNDbPJfi-KfuYyYuPvT68Il_h5kySAq5JsFHFu3W5KMt8FfzaWKrOpnQqpugzt7Pgc-f73nfpydYvQyZy-s4CcgZGJaQE5fDbf0pRUqdXdeBdjccUSzZJbp8d9wATxNE-6CsTyan6XWCc52ulkvIvKtE2AHBDPwbrbRji5KTIiEOX60=w1935-h1290-no?authuser=0');
+    color: black;
+    border-top: 8px solid gainsboro;
+}
+.portrait img {
+    padding: 8px;
+    background-color: black;
+}
+div.about-me {
+    border: 8px solid black;
+    display: inline-block;
+    width: 650px;
+    position: absolute;
+    left: 47%;
+    margin-top: 200px;
+    border-radius: 4px;
+    background-color: gainsboro;
+    padding: 50px;
+    box-shadow: 0px 10px 50px grey;
+    
+  }
+.about-me p {
+  font-size: 18px;
+}
